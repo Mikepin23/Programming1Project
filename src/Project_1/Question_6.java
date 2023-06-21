@@ -8,9 +8,9 @@ public class Question_6 {
 		// TODO Auto-generated method stub
 		
 		   int[] nums = {2, 5, 0, 4, 1};
-		   
+
 		   System.out.print("Input: nums = " + Arrays.toString(nums));
-		   
+		  
 		   int missingNumber = missingNumber(nums);
 	        
 	        System.out.println("\nOutput: " + missingNumber);
@@ -22,8 +22,8 @@ public class Question_6 {
 	        int equatedSum = (n * (n + 1)) / 2;
 	        
 	        int numsSum = 0;
-	        for (int num : nums) {
-	            numsSum += num;
+	        for (int el : nums) {
+	            numsSum += el;
 	        }
 	        return equatedSum - numsSum;
 	    }
