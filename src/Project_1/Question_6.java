@@ -7,7 +7,7 @@ public class Question_6 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		   int[] nums = {3, 0, 4, 1};
+		   int[] nums = {2, 5, 0, 4, 1};
 		   
 		   System.out.print("Input: nums = " + Arrays.toString(nums));
 		   
