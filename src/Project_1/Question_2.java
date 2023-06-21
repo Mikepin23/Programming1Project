@@ -21,11 +21,6 @@ public class Question_2 {
         
         for (int i = 1; i <= numberCount; i++) {
         	number = kb.nextInt();
-        	
-        	if (number < joker) {
-	        	System.out.print(0 + " ");
-	        	continue;
-        	} 
      
         	while (number >= joker) {
         		number -= joker;
@@ -34,7 +29,7 @@ public class Question_2 {
         } 
         
         kb.close();
- 
+
 	}
 
 }
